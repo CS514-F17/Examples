@@ -26,9 +26,14 @@ public class StringManipulations {
 	
 	public static void main(String[] args) {
 		//some sample code to test the method
-		StringManipulations sm = new StringManipulations();
-		String result1 = sm.replace("yes", 'l', 'X');
-		System.out.println(result1);
+//		StringManipulations sm = new StringManipulations();
+//		String result1 = sm.replace("yes", 'l', 'X');
+//		System.out.println(result1);
+		
+
+		String test = "hello\tthere";
+		System.out.println(test);
+		
 		
 	}
 }
