@@ -10,21 +10,6 @@ public class WhitepsaceExample {
 		return false;
 	}
 	
-	public int convert(String input1, String input2) {
-		
-		//covnert inputs to a number
-		//input must be abc or def
-		
-		if(!isValid(input1) || !isValid(input2)) {
-			return -1;
-		}
-		else {
-			//return conversion
-		}
-//missing return value		
-		
-	}
-	
 	public static void main(String[] args) {
 		
 		String test = "hello\tthere class";
