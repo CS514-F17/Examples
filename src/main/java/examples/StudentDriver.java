@@ -19,7 +19,7 @@ public class StudentDriver {
 		for(Student s: students) {
 			System.out.println(s);
 		}
-		
+				
 		//change name of student 1 to be Robert
 		//option 1
 		students.get(0).changeFirstName("Robert");
