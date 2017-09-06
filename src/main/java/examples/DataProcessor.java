@@ -43,7 +43,7 @@ public class DataProcessor {
 				//save to file
 				output.write(grade + "\n");
 				
-//				numbers.add(nextInt);			
+//				numbers.add(nextInt);
 			}
 
 		} catch(IOException ioe) {
