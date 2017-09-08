@@ -2,6 +2,7 @@ package examples;
 
 import java.io.IOException;
 import java.util.Scanner;
+//TODO: You are missing documentation here.
 
 public class CmdInput {
 
