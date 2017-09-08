@@ -15,7 +15,6 @@ public class ScannerAndStringExample {
 		//			
 		//		}
 
-
 		Scanner lineScanner = (new Scanner(line));//.useDelimiter("b");		
 		int i = 0;
 		while(lineScanner.hasNext()) {
