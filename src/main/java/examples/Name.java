@@ -1,6 +1,11 @@
 package examples;
 
-public class Name {
+/**
+ * Updated class that implements the Comparable interface.
+ * @author srollins
+ *
+ */
+public class Name implements Comparable<Name>{
 
 	private String firstName;
 	private String lastName;
@@ -9,6 +14,19 @@ public class Name {
 		this.firstName = firstName;
 		this.lastName = lastName;
 	}
+	
+	public int compareTo(Name other) {
+		int lastNameResult = this.lastName.compareTo(other.getLastName());
+		//if last names are the same
+		if(lastNameResult == 0) {
+			//compare first names
+			return this.firstName.compareTo(other.getFirstName());
+		} else {
+			return lastNameResult;
+		}
+		
+	}
+	
 	
 	public String toString() {
 		return firstName + " " + lastName;
