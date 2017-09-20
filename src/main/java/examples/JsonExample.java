@@ -19,7 +19,18 @@ public class JsonExample {
 				"   \"useful\":0,\n" + 
 				"   \"funny\":0,\n" + 
 				"   \"cool\":0\n" + 
-				"}";				
+				"}";
+		
+		JsonParser parser = new JsonParser();
+		JsonElement elt = parser.parse(review);
+		if(elt.isJsonObject()) {
+			JsonObject obj = (JsonObject)elt;
+			
+			String text = obj.get("text").getAsString();
+			int cool = obj.get("cool").getAsInt();
+					
+		}
+		
 	}
 
 }
